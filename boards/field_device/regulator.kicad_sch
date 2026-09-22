@@ -1069,13 +1069,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 20.32) (xy 30.48 20.32)
+			(xy 17.78 20.32) (xy 30.48 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0273278e-b9de-4de5-a3ae-b0b72fff8085")
+		(uuid "0200e3b5-7184-4e3c-9391-9426eeda839e")
 	)
 	(wire
 		(pts
@@ -2529,86 +2529,6 @@
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 21.59 20.32 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1f87955-d02f-4be9-86f2-1b2e5da46946")
-		(property "Reference" "R10"
-			(at 21.59 13.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 21.59 16.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 21.59 22.098 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 21.59 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51ecdd5d-ce47-4ea9-9aea-cb356b9a3f49")
-		)
-		(pin "2"
-			(uuid "f9d0837c-fc11-40f6-9d20-85a76ee8af88")
-		)
-		(instances
-			(project "field_device"
-				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R10")
 					(unit 1)
 				)
 			)

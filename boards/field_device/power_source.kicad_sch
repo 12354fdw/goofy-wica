@@ -1456,6 +1456,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 26.67) (xy 40.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb49007-d53a-4344-8e74-6811cb40b9bf")
+	)
+	(wire
+		(pts
 			(xy 118.11 46.99) (xy 118.11 45.72)
 		)
 		(stroke
@@ -1563,16 +1573,6 @@
 			(type default)
 		)
 		(uuid "aae59224-de1b-4347-b88e-b595c1956c85")
-	)
-	(wire
-		(pts
-			(xy 30.48 26.67) (xy 40.64 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ad9548-78a0-4bcc-8bd9-026d911adbe4")
 	)
 	(wire
 		(pts
@@ -2281,86 +2281,6 @@
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
 					(reference "SC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7edd8268-fca3-45cc-922c-f091486767a2")
-		(property "Reference" "R7"
-			(at 26.67 20.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 26.67 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 26.67 28.448 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c06f081-aca0-4bb5-abbb-1a58d81fc378")
-		)
-		(pin "1"
-			(uuid "956d9945-43b9-493e-8998-3b9a01279831")
-		)
-		(instances
-			(project "field_device"
-				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "R7")
 					(unit 1)
 				)
 			)
