@@ -742,7 +742,7 @@
         "uuid": "99623870-118f-49fe-bbf0-fb0b890db442"
       }
     ],
-    "used_designators": "SW1,L1,BT1-2,J1-2,SC1,R1-16,R41,D1-2,C1-14,FB1,#PWR1-32,U1-5",
+    "used_designators": "U1-6,#PWR1-32,FB1,C1-14,D1-2,R1-16,R41,SC1,J1-2,BT1-2,L1,SW1",
     "variants": []
   },
   "sheets": [
@@ -769,6 +769,10 @@
     [
       "ed5659f9-5584-4daa-a017-4d4def535a07",
       "regulator"
+    ],
+    [
+      "d15b20d6-817c-48cf-abc4-788b93984e6d",
+      "lora_module"
     ]
   ],
   "text_variables": {},

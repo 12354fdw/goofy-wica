@@ -264,6 +264,52 @@
 		)
 	)
 	(sheet
+		(at 85.09 59.69)
+		(size 20.32 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d15b20d6-817c-48cf-abc4-788b93984e6d")
+		(property "Sheetname" "lora_module"
+			(at 85.09 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lora_module.kicad_sch"
+			(at 85.09 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "field_device"
+				(path "/99623870-118f-49fe-bbf0-fb0b890db442"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 59.69)
 		(size 21.59 11.43)
 		(exclude_from_sim no)
