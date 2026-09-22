@@ -1,0 +1,15 @@
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.bak
+
+*.kicad_prl
+*.kicad_prl/
+__proquest_cache/
+
+.DS_Store
+Thumbs.db
+*~
+
+*.lck

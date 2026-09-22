@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UnEasy-LCSC") (type "KiCad") (uri "${KIPRJMOD}/../../libraries/UnEasy-LCSC/UnEasy-LCSC.pretty") (options "") (descr ""))
+	(lib (name "custom") (type "KiCad") (uri "${KIPRJMOD}/custom.pretty") (options "") (descr ""))
+)

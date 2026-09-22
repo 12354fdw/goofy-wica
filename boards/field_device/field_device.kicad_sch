@@ -1,0 +1,318 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "99623870-118f-49fe-bbf0-fb0b890db442")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 85.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2494b93c-8616-4e94-a163-220beb65b0ec")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 85.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa9ccd6-2467-407a-b70c-4b72ef4869fe")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 85.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b44770b-7955-4d87-9185-b032395ea631")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b3c1d4-1d8f-43f2-b679-8a634f93bc66")
+	)
+	(sheet
+		(at 85.09 25.4)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2e4263c7-c8e1-4b02-9f0c-6ffdd831f2a9")
+		(property "Sheetname" "humidity_sensor"
+			(at 85.09 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "humidity_sensor.kicad_sch"
+			(at 85.09 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 85.09 27.94 180)
+			(uuid "c1cfaf74-b1a0-42c1-b4ff-afc2f82d846a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 85.09 30.48 180)
+			(uuid "07858414-a61e-492e-85fa-b9dbad13aa71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "field_device"
+				(path "/99623870-118f-49fe-bbf0-fb0b890db442"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 24.13)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "441958c3-66c1-4026-b548-1512d5f01f19")
+		(property "Sheetname" "MCU"
+			(at 50.8 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 50.8 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "humidity_SCL" bidirectional
+			(at 76.2 27.94 0)
+			(uuid "04ae6772-696c-491f-a334-7f73db870f01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "humidity_SDA" bidirectional
+			(at 76.2 30.48 0)
+			(uuid "f137ba03-18e6-4368-9abb-a7a8e6a90948")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pressure_SCL" bidirectional
+			(at 76.2 40.64 0)
+			(uuid "0258b4d8-5e3a-4f11-9b7d-0b1a710b5d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pressure_SDA" bidirectional
+			(at 76.2 43.18 0)
+			(uuid "7dac1a2e-9e09-416c-a0f2-5aee452fef92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "field_device"
+				(path "/99623870-118f-49fe-bbf0-fb0b890db442"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 38.1)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ae167bff-0cee-4447-ad8b-23808a2f268b")
+		(property "Sheetname" "pressure_sensor"
+			(at 85.09 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pressure_sensor.kicad_sch"
+			(at 85.09 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 85.09 40.64 180)
+			(uuid "487415d4-8a22-4a5f-a0eb-30feeb9f489e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 85.09 43.18 180)
+			(uuid "a3aafc99-5a06-44fa-90a6-0e97ccdc6df8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "field_device"
+				(path "/99623870-118f-49fe-bbf0-fb0b890db442"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 59.69)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e9c11804-cc5e-4b00-a5de-7502c32ebb51")
+		(property "Sheetname" "power_source"
+			(at 50.8 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_source.kicad_sch"
+			(at 50.8 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "field_device"
+				(path "/99623870-118f-49fe-bbf0-fb0b890db442"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

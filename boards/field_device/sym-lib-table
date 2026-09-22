@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "UnEasy-LCSC") (type "KiCad") (uri "${KIPRJMOD}/../../libraries/UnEasy-LCSC/UnEasy-LCSC.kicad_symdir") (options "") (descr ""))
+	(lib (name "custom") (type "KiCad") (uri "${KIPRJMOD}/custom.kicad_sym") (options "") (descr ""))
+)
