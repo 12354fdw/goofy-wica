@@ -719,7 +719,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 11.43 0)
 					(length 2.54)
 					(name "PB7/PB8"
@@ -737,7 +737,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 8.89 0)
 					(length 2.54)
 					(name "PC14-OSCX_IN"
@@ -755,7 +755,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 6.35 0)
 					(length 2.54)
 					(name "PC15-OSCX_OUT"
@@ -773,7 +773,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -29.21 3.81 0)
 					(length 2.54)
 					(name "VDD/VDDA"
@@ -791,7 +791,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -29.21 1.27 0)
 					(length 2.54)
 					(name "VSS/VSSA"
@@ -809,7 +809,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 -1.27 0)
 					(length 2.54)
 					(name "PF2-NRST"
@@ -827,7 +827,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 -3.81 0)
 					(length 2.54)
 					(name "PA0"
@@ -845,7 +845,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 -6.35 0)
 					(length 2.54)
 					(name "PA1"
@@ -863,7 +863,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 -8.89 0)
 					(length 2.54)
 					(name "PA2"
@@ -881,7 +881,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -29.21 -11.43 0)
 					(length 2.54)
 					(name "PA3"
@@ -899,7 +899,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 -11.43 180)
 					(length 2.54)
 					(name "PA4"
@@ -917,7 +917,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 -8.89 180)
 					(length 2.54)
 					(name "PA5"
@@ -935,7 +935,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 -6.35 180)
 					(length 2.54)
 					(name "PA6"
@@ -953,7 +953,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 -3.81 180)
 					(length 2.54)
 					(name "PA7"
@@ -971,7 +971,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 -1.27 180)
 					(length 2.54)
 					(name "PA8"
@@ -989,7 +989,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 1.27 180)
 					(length 2.54)
 					(name "PA11[PA9]"
@@ -1007,7 +1007,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 3.81 180)
 					(length 2.54)
 					(name "PA12[PA10]"
@@ -1025,7 +1025,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 6.35 180)
 					(length 2.54)
 					(name "PA13"
@@ -1043,7 +1043,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 8.89 180)
 					(length 2.54)
 					(name "PA14-BOOT0/PA15"
@@ -1061,7 +1061,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 29.21 11.43 180)
 					(length 2.54)
 					(name "PB3/PB4/PB5/PB6"
@@ -1424,6 +1424,58 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2bd4e92-2acc-4caa-ae93-cade99236023")
+	)
+	(no_connect
+		(at 180.34 35.56)
+		(uuid "07b14f8d-5dd2-452b-9192-c179dc8e9c75")
+	)
+	(no_connect
+		(at 121.92 48.26)
+		(uuid "08bc6602-6c79-46dd-8a32-be64e9499184")
+	)
+	(no_connect
+		(at 180.34 40.64)
+		(uuid "2c088222-9593-4f37-9f83-61bda63cc91b")
+	)
+	(no_connect
+		(at 121.92 45.72)
+		(uuid "6bf372ae-e7e7-420f-8637-107858769feb")
+	)
+	(no_connect
+		(at 121.92 27.94)
+		(uuid "6f271179-325d-4b96-9f1c-079f64fb68eb")
+	)
+	(no_connect
+		(at 180.34 33.02)
+		(uuid "701da5ec-6931-4fc4-92d2-d9f63d8a4d59")
+	)
+	(no_connect
+		(at 121.92 43.18)
+		(uuid "75fdb184-eb36-499b-9626-d355583cfd27")
+	)
+	(no_connect
+		(at 121.92 30.48)
+		(uuid "81c859ec-f9d3-46ad-ae3b-1c1fdadf0896")
+	)
+	(no_connect
+		(at 180.34 45.72)
+		(uuid "8c30518b-7702-472a-aea6-90f18261b0d2")
+	)
+	(no_connect
+		(at 121.92 40.64)
+		(uuid "a3deb92a-46d5-4b5e-bc4d-a2c00b815523")
+	)
+	(no_connect
+		(at 180.34 48.26)
+		(uuid "a9235131-aa59-48a5-ae13-b6dd972b06b4")
+	)
+	(no_connect
+		(at 180.34 43.18)
+		(uuid "d4cb681f-1d30-4457-87b1-7f3d14609518")
+	)
+	(no_connect
+		(at 180.34 38.1)
+		(uuid "eb67d9d2-8778-4265-82fb-799f10fa9b5e")
 	)
 	(wire
 		(pts

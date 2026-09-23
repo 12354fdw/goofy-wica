@@ -1079,7 +1079,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "TEMP"
@@ -1097,7 +1097,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -11.43 0 0)
 					(length 2.54)
 					(name "ISET"
@@ -1115,7 +1115,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -11.43 -2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -1133,7 +1133,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -11.43 -5.08 0)
 					(length 2.54)
 					(name "VIN"
@@ -1151,7 +1151,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 11.43 -5.08 180)
 					(length 2.54)
 					(name "BAT"
@@ -1169,7 +1169,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 11.43 -2.54 180)
 					(length 2.54)
 					(name "DONE#"
@@ -1187,7 +1187,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 11.43 0 180)
 					(length 2.54)
 					(name "CHRG#"
@@ -1205,7 +1205,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 11.43 2.54 180)
 					(length 2.54)
 					(name "FB"
@@ -1223,7 +1223,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
 					(name "PAD"

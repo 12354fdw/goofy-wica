@@ -1,70 +1,237 @@
-(kicad_symbol_lib (version 20211014) (generator UnEasy-LCSC)
-  (symbol "CHT20MEMS"
-    (in_bom yes)
-    (on_board yes)
-      (property "Reference" "U" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27))))
-      (property "Value" "CHT20MEMS" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27))))
-      (property "Footprint" "UnEasy-LCSC:LGA-6_L3.0-W3.0-P1.00-BR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "Datasheet" "" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "LCSC Part" "C26159166" (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "Manufacturer" "CYBERSEN(西博臣)" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "MPN" "CHT20MEMS" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide))
-    (symbol "CHT20MEMS_0_1"
-            (rectangle
-              (start -6.35 5.08)
-              (end 6.35 -5.08)
-              (stroke (width 0.254) (type default))
-              (fill (type background))
-            )
-            (circle
-              (center -5.08 3.81)
-              (radius 0.38)
-              (stroke (width 0.254) (type default))
-              (fill (type background))
-            )
-            (pin unspecified line
-              (at -8.89 2.54 0)
-              (length 2.54)
-              (name "NC" (effects (font (size 1.27 1.27))))
-              (number "1" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at -8.89 0.00 0)
-              (length 2.54)
-              (name "VDD" (effects (font (size 1.27 1.27))))
-              (number "2" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at -8.89 -2.54 0)
-              (length 2.54)
-              (name "SCL" (effects (font (size 1.27 1.27))))
-              (number "3" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 8.89 -2.54 180)
-              (length 2.54)
-              (name "SDA" (effects (font (size 1.27 1.27))))
-              (number "4" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 8.89 0.00 180)
-              (length 2.54)
-              (name "VSS" (effects (font (size 1.27 1.27))))
-              (number "5" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 8.89 2.54 180)
-              (length 2.54)
-              (name "NC" (effects (font (size 1.27 1.27))))
-              (number "6" (effects (font (size 1.27 1.27))))
-            )
-    )
-  )
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "CHT20MEMS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHT20MEMS"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UnEasy-LCSC:LGA-6_L3.0-W3.0-P1.00-BR"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C26159166"
+			(at 0 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CYBERSEN(西博臣)"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CHT20MEMS"
+			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CHT20MEMS_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -5.08 3.81)
+				(radius 0.38)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

@@ -863,7 +863,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 12.7 0)
 					(length 2.54)
 					(name "VDD_IN"
@@ -881,7 +881,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 10.16 0)
 					(length 2.54)
 					(name "GND"
@@ -899,7 +899,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -17.78 7.62 0)
 					(length 2.54)
 					(name "XTA"
@@ -917,7 +917,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -17.78 5.08 0)
 					(length 2.54)
 					(name "XTB"
@@ -935,7 +935,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -953,7 +953,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -17.78 0 0)
 					(length 2.54)
 					(name "DIO3"
@@ -971,7 +971,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -17.78 -2.54 0)
 					(length 2.54)
 					(name "VREG"
@@ -989,7 +989,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -5.08 0)
 					(length 2.54)
 					(name "GND"
@@ -1007,7 +1007,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -17.78 -7.62 0)
 					(length 2.54)
 					(name "DCC_SW"
@@ -1025,7 +1025,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -10.16 0)
 					(length 2.54)
 					(name "VBAT"
@@ -1043,7 +1043,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -17.78 -12.7 0)
 					(length 2.54)
 					(name "VBAT_IO"
@@ -1061,7 +1061,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -17.78 -15.24 0)
 					(length 2.54)
 					(name "DIO2"
@@ -1079,7 +1079,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 17.78 -15.24 180)
 					(length 2.54)
 					(name "DIO1"
@@ -1097,7 +1097,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 17.78 -12.7 180)
 					(length 2.54)
 					(name "BUSY"
@@ -1115,7 +1115,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 -10.16 180)
 					(length 2.54)
 					(name "NRESET"
@@ -1133,7 +1133,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 17.78 -7.62 180)
 					(length 2.54)
 					(name "MISO"
@@ -1151,7 +1151,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 -5.08 180)
 					(length 2.54)
 					(name "MOSI"
@@ -1169,7 +1169,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 -2.54 180)
 					(length 2.54)
 					(name "SCK"
@@ -1187,7 +1187,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 0 180)
 					(length 2.54)
 					(name "NSS"
@@ -1205,7 +1205,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -1223,7 +1223,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 5.08 180)
 					(length 2.54)
 					(name "RFI_P"
@@ -1241,7 +1241,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 17.78 7.62 180)
 					(length 2.54)
 					(name "RFI_N"
@@ -1259,7 +1259,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at 17.78 10.16 180)
 					(length 2.54)
 					(name "RFO"
@@ -1277,7 +1277,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 12.7 180)
 					(length 2.54)
 					(name "VR_PA"
@@ -1295,7 +1295,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 15.24 180)
 					(length 2.54)
 					(name "GND"

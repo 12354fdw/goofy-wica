@@ -1,94 +1,313 @@
-(kicad_symbol_lib (version 20211014) (generator UnEasy-LCSC)
-  (symbol "HX8001-AJC"
-    (in_bom yes)
-    (on_board yes)
-      (property "Reference" "U" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27))))
-      (property "Value" "HX8001-AJC" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27))))
-      (property "Footprint" "UnEasy-LCSC:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL" (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "Datasheet" "" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "LCSC Part" "C521274" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "Manufacturer" "HEXIN(禾芯微)" (at 0 -12.70 0)
-        (effects (font (size 1.27 1.27)) hide))
-      (property "MPN" "HX8001-AJC" (at 0 -13.97 0)
-        (effects (font (size 1.27 1.27)) hide))
-    (symbol "HX8001-AJC_0_1"
-            (rectangle
-              (start -7.62 7.62)
-              (end 7.62 -7.62)
-              (stroke (width 0.254) (type default))
-              (fill (type background))
-            )
-            (circle
-              (center -6.35 6.35)
-              (radius 0.38)
-              (stroke (width 0.254) (type default))
-              (fill (type background))
-            )
-            (pin unspecified line
-              (at -10.16 5.08 0)
-              (length 2.54)
-              (name "RT" (effects (font (size 1.27 1.27))))
-              (number "1" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at -10.16 2.54 0)
-              (length 2.54)
-              (name "MS" (effects (font (size 1.27 1.27))))
-              (number "2" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at -10.16 0.00 0)
-              (length 2.54)
-              (name "SW1" (effects (font (size 1.27 1.27))))
-              (number "3" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at -10.16 -2.54 0)
-              (length 2.54)
-              (name "SW2" (effects (font (size 1.27 1.27))))
-              (number "4" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at -10.16 -5.08 0)
-              (length 2.54)
-              (name "GND" (effects (font (size 1.27 1.27))))
-              (number "5" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 10.16 -5.08 180)
-              (length 2.54)
-              (name "VOUT" (effects (font (size 1.27 1.27))))
-              (number "6" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 10.16 -2.54 180)
-              (length 2.54)
-              (name "VIN" (effects (font (size 1.27 1.27))))
-              (number "7" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 10.16 0.00 180)
-              (length 2.54)
-              (name "EN" (effects (font (size 1.27 1.27))))
-              (number "8" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 10.16 2.54 180)
-              (length 2.54)
-              (name "FB" (effects (font (size 1.27 1.27))))
-              (number "9" (effects (font (size 1.27 1.27))))
-            )
-            (pin unspecified line
-              (at 10.16 5.08 180)
-              (length 2.54)
-              (name "VC" (effects (font (size 1.27 1.27))))
-              (number "10" (effects (font (size 1.27 1.27))))
-            )
-    )
-  )
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "HX8001-AJC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX8001-AJC"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UnEasy-LCSC:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+			(at 0 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C521274"
+			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HEXIN(禾芯微)"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HX8001-AJC"
+			(at 0 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "HX8001-AJC_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -6.35 6.35)
+				(radius 0.38)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "RT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "MS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "VC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
