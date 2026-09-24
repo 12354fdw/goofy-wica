@@ -1991,6 +1991,83 @@
 		)
 		(uuid "e822604b-38d3-44a7-8388-af710f9584e1")
 	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 129.54 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c48c9e0-3f5d-4f49-b13a-1db709465d3e")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 129.54 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b814d87-cd49-43f5-b3eb-303798e26547")
+	)
+	(hierarchical_label "BUSY"
+		(shape output)
+		(at 129.54 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72f59a09-eaf5-4ae0-9981-3bd8a6865b67")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 129.54 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "941e95cd-b87e-443d-870a-68cd17e6d6d4")
+	)
+	(hierarchical_label "NSS"
+		(shape input)
+		(at 129.54 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1997bf1-f2b2-442a-b851-1c6c79236187")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 129.54 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8e0600f-b9ec-4c2d-852b-5e6e1d0fc55c")
+	)
+	(hierarchical_label "DIO1"
+		(shape output)
+		(at 129.54 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffb43544-a9e4-4e35-a581-abe18e3a89bc")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 93.98 55.88 270)
@@ -4050,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UnEasy-LCSC:QFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.15x2.15mm"
 			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)

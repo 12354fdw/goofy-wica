@@ -7,7 +7,17 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 85.09 43.18)
+			(xy 76.2 53.34) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8dd39a-75a6-44d3-b0fe-f03aebd40708")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 91.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +27,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 27.94) (xy 85.09 27.94)
+			(xy 76.2 63.5) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3311bbec-a6dd-436d-b85a-07ac5249099f")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 91.44 27.94)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +47,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 30.48) (xy 85.09 30.48)
+			(xy 76.2 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c8fd3e-d65c-4fbe-b369-6790782e09ff")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727e48f7-23d4-447a-8aa2-cfa5811f3081")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 91.44 30.48)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +77,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 85.09 40.64)
+			(xy 76.2 58.42) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f12ce87-7699-4809-a758-4a5b8127942b")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 91.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c7826-4e58-4f01-be7a-4958bb37519b")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -45,8 +105,18 @@
 		)
 		(uuid "a6b3c1d4-1d8f-43f2-b679-8a634f93bc66")
 	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca9c35f-7c52-4424-aadf-fc353a6d34b0")
+	)
 	(sheet
-		(at 85.09 25.4)
+		(at 91.44 25.4)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62,7 +132,7 @@
 		)
 		(uuid "2e4263c7-c8e1-4b02-9f0c-6ffdd831f2a9")
 		(property "Sheetname" "humidity_sensor"
-			(at 85.09 24.6884 0)
+			(at 91.44 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73,7 +143,7 @@
 			)
 		)
 		(property "Sheetfile" "humidity_sensor.kicad_sch"
-			(at 85.09 33.6046 0)
+			(at 91.44 33.6046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +154,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 85.09 27.94 180)
+			(at 91.44 27.94 180)
 			(uuid "c1cfaf74-b1a0-42c1-b4ff-afc2f82d846a")
 			(effects
 				(font
@@ -94,7 +164,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 85.09 30.48 180)
+			(at 91.44 30.48 180)
 			(uuid "07858414-a61e-492e-85fa-b9dbad13aa71")
 			(effects
 				(font
@@ -113,7 +183,7 @@
 	)
 	(sheet
 		(at 50.8 24.13)
-		(size 25.4 25.4)
+		(size 25.4 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -139,7 +209,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 50.8 50.1146 0)
+			(at 50.8 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,9 +219,9 @@
 				(justify left top)
 			)
 		)
-		(pin "humidity_SCL" bidirectional
+		(pin "HUMID_SCL" bidirectional
 			(at 76.2 27.94 0)
-			(uuid "04ae6772-696c-491f-a334-7f73db870f01")
+			(uuid "94342f0d-2779-434a-bad4-598618e3a3d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,9 +229,9 @@
 				(justify right)
 			)
 		)
-		(pin "humidity_SDA" bidirectional
+		(pin "HUMID_SDA" bidirectional
 			(at 76.2 30.48 0)
-			(uuid "f137ba03-18e6-4368-9abb-a7a8e6a90948")
+			(uuid "d101dbe6-8911-49de-b1f0-d4c3ba4299a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,9 +239,9 @@
 				(justify right)
 			)
 		)
-		(pin "pressure_SCL" bidirectional
+		(pin "PRES_SCL" bidirectional
 			(at 76.2 40.64 0)
-			(uuid "0258b4d8-5e3a-4f11-9b7d-0b1a710b5d6c")
+			(uuid "dc786daf-a736-40dd-b37d-05297e59a77a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,9 +249,79 @@
 				(justify right)
 			)
 		)
-		(pin "pressure_SDA" bidirectional
+		(pin "PRES_SDA" bidirectional
 			(at 76.2 43.18 0)
-			(uuid "7dac1a2e-9e09-416c-a0f2-5aee452fef92")
+			(uuid "6861188d-7ecc-488f-87ca-d67a4ea36355")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_BUSY" input
+			(at 76.2 66.04 0)
+			(uuid "fa7e894f-6253-4e9c-b9eb-73ff540706ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_MISO" input
+			(at 76.2 60.96 0)
+			(uuid "616b31e1-f88b-4aeb-bac3-b0aaa0e50433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_MOSI" output
+			(at 76.2 58.42 0)
+			(uuid "68a966cc-11f4-426b-84b8-4e3d29a32842")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_NSS" output
+			(at 76.2 53.34 0)
+			(uuid "5b871ff3-30dd-469d-a96d-b02fc15437fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_SCK" output
+			(at 76.2 55.88 0)
+			(uuid "1b4019d3-ee98-425f-8d66-2b78fbfbb409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_DIO1" input
+			(at 76.2 68.58 0)
+			(uuid "f445fb98-5ed5-43d2-b468-d0a06c951af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_NRST" output
+			(at 76.2 63.5 0)
+			(uuid "ec0a9206-a76f-42bf-96bb-8c548ff072e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,7 +338,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 38.1)
+		(at 91.44 38.1)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -214,7 +354,7 @@
 		)
 		(uuid "ae167bff-0cee-4447-ad8b-23808a2f268b")
 		(property "Sheetname" "pressure_sensor"
-			(at 85.09 37.3884 0)
+			(at 91.44 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,7 +365,7 @@
 			)
 		)
 		(property "Sheetfile" "pressure_sensor.kicad_sch"
-			(at 85.09 46.3046 0)
+			(at 91.44 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -236,7 +376,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 85.09 40.64 180)
+			(at 91.44 40.64 180)
 			(uuid "487415d4-8a22-4a5f-a0eb-30feeb9f489e")
 			(effects
 				(font
@@ -246,7 +386,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 85.09 43.18 180)
+			(at 91.44 43.18 180)
 			(uuid "a3aafc99-5a06-44fa-90a6-0e97ccdc6df8")
 			(effects
 				(font
@@ -264,8 +404,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 59.69)
-		(size 20.32 11.43)
+		(at 91.44 50.8)
+		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -280,7 +420,7 @@
 		)
 		(uuid "d15b20d6-817c-48cf-abc4-788b93984e6d")
 		(property "Sheetname" "lora_module"
-			(at 85.09 58.9784 0)
+			(at 91.44 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -291,7 +431,7 @@
 			)
 		)
 		(property "Sheetfile" "lora_module.kicad_sch"
-			(at 85.09 71.7046 0)
+			(at 91.44 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -299,6 +439,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUSY" output
+			(at 91.44 66.04 180)
+			(uuid "e1216a71-7923-4a80-83cc-43d9557839fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO1" output
+			(at 91.44 68.58 180)
+			(uuid "7036b32f-feec-466c-a58c-30ea567b2787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 91.44 60.96 180)
+			(uuid "2f5d2f51-7cca-48da-81d8-a122c4ac2967")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 91.44 58.42 180)
+			(uuid "c25d8fec-099e-4b29-b54c-6ce3635ed87f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" output
+			(at 91.44 63.5 180)
+			(uuid "0023ad9b-aef3-466e-bd95-4a003cfc3fff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSS" input
+			(at 91.44 53.34 180)
+			(uuid "527f9ebe-4349-44e6-9a4e-114fd90d0ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 91.44 55.88 180)
+			(uuid "f1b1a124-2999-486d-9b0f-c6d96b2b7c92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -310,7 +520,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 59.69)
+		(at 50.8 81.28)
 		(size 21.59 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -326,7 +536,7 @@
 		)
 		(uuid "e9c11804-cc5e-4b00-a5de-7502c32ebb51")
 		(property "Sheetname" "power_source"
-			(at 50.8 58.9784 0)
+			(at 50.8 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -337,7 +547,7 @@
 			)
 		)
 		(property "Sheetfile" "power_source.kicad_sch"
-			(at 50.8 71.7046 0)
+			(at 50.8 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
