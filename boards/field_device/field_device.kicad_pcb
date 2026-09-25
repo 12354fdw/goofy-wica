@@ -2990,7 +2990,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "4d53285b-f30c-4903-9e2d-0799f93541cd")
-		(at 204.74006 82.610373 180)
+		(at 204.787849 82.697014 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -6617,11 +6617,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a10102e5-a631-4b77-aedc-04e98f5cf920")
-		(at 204.736248 81.751255 180)
+		(at 204.785554 81.803054 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.05 0)
+			(at -2.210672 0.404351 0)
 			(layer "F.SilkS")
 			(uuid "8391bf73-f661-42ff-9a8c-651a2aee63f1")
 			(effects
@@ -9045,7 +9045,7 @@
 		(at 204.47 86.36)
 		(descr "C521274, HEXIN(禾芯微), HX8001-AJC, generated with UnEasy-LCSC")
 		(property "Reference" "U5"
-			(at 0 -6.11 0)
+			(at 2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "b24f1eda-14e2-4c49-96dc-67082d2a4d32")
 			(effects
@@ -11415,6 +11415,113 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(via blind
+		(at 203.667585 81.812532)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "In1.Cu")
+		(net "")
+		(uuid "248b9ff7-933b-4c12-a7c3-9c5030f3f08e")
+	)
+	(segment
+		(start 205.105554 81.803054)
+		(end 205.105554 82.694719)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/power_source/regulator/pwr")
+		(uuid "49d7ce96-0239-4ed3-884a-1a12276c17de")
+	)
+	(segment
+		(start 205.132849 82.818361)
+		(end 204.97 82.98121)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/power_source/regulator/pwr")
+		(uuid "5812ff3a-8fc5-4f34-8bb3-108a97fdbe74")
+	)
+	(segment
+		(start 205.105554 82.694719)
+		(end 205.107849 82.697014)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/power_source/regulator/pwr")
+		(uuid "a25e751a-1460-4a77-b03a-1881450ff547")
+	)
+	(segment
+		(start 204.97 82.98121)
+		(end 204.97 84.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/power_source/regulator/pwr")
+		(uuid "c954a79a-d0d7-423d-bed0-c0821076de69")
+	)
+	(segment
+		(start 204.42006 84.20006)
+		(end 204.47 84.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/power_source/regulator/enable")
+		(uuid "149c4dae-11ff-4d63-82d9-c8179ee9ef02")
+	)
+	(segment
+		(start 204.47 82.641211)
+		(end 204.492849 82.618362)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/power_source/regulator/enable")
+		(uuid "b30a0897-5b68-45bc-91a0-5ae36448a138")
+	)
+	(segment
+		(start 204.47 84.25)
+		(end 204.47 82.641211)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/power_source/regulator/enable")
+		(uuid "f9404cd4-5acc-471c-b55f-ff43281cc9de")
+	)
+	(zone
+		(net "GND")
+		(layer "In1.Cu")
+		(uuid "1014dc68-1400-494a-8433-5dc618e0e603")
+		(name "gnd")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 127 50.8) (xy 127 127) (xy 242.57 127) (xy 241.3 50.8)
+			)
+		)
+	)
+	(zone
+		(net "+3.3V")
+		(layer "In2.Cu")
+		(uuid "47e8f45d-05ee-4db6-b9cd-802c2d388722")
+		(name "pwr")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 127 50.8) (xy 127 127) (xy 242.57 127) (xy 241.3 50.8)
 			)
 		)
 	)
