@@ -33,6 +33,7 @@ target_sources(${PROJECT_NAME} PRIVATE
   # User defined sources
   "${CMAKE_CURRENT_SOURCE_DIR}/Src/init.c"
   "${CMAKE_CURRENT_SOURCE_DIR}/Src/hal.c"
+  "${CMAKE_CURRENT_SOURCE_DIR}/Driver/rf.c"
 )
 
 # Add include directories
@@ -40,6 +41,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
   # User defined include directories
   "${CMAKE_CURRENT_SOURCE_DIR}/Inc/CMSIS"
   "${CMAKE_CURRENT_SOURCE_DIR}/Inc/Device"
+  "${CMAKE_CURRENT_SOURCE_DIR}/Driver"
 )
 
 # Compiler options

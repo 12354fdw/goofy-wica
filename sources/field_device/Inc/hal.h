@@ -57,4 +57,4 @@ inline uint8_t HAL_GPIO_Read(GPIO_TypeDef *GPIOx, uint32_t pin) {
 	return (uint8_t)((GPIOx->IDR >> pin) & 1U);
 }
 
-#endif
+#endif // HAL_H

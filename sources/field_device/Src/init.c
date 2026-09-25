@@ -1,4 +1,5 @@
 #include "init.h"
+#include "Driver/rf.h"
 #include "hal.h"
 #include "stm32c051xx.h"
 
@@ -30,8 +31,17 @@ void init(void) {
 
 	printf("hello\r\n");
 
+	printf("init peripherals...");
+
+	// SPI1 for RF
+	HAL_Peripheral_EnableClock(HAL_PERIPH_SPI1);
+
+	printf("ok\r\n");
+
 	// actual init
-	printf("init...");
+	printf("init pins...");
+
+	SYS_RF_InitPins();
 
 	printf("ok\r\n");
 }
