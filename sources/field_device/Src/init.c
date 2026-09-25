@@ -1,5 +1,7 @@
 #include "init.h"
 #include "Driver/rf.h"
+#include "Driver/spi.h"
+#include "Driver/i2c.h"
 #include "hal.h"
 #include "stm32c051xx.h"
 
@@ -40,9 +42,11 @@ void init(void) {
 
 	// SPI1 for RF
 	HAL_Peripheral_EnableClock(HAL_PERIPH_SPI1);
+	SYS_SPI_Init();
 
 	// I2C1 for I2C bus
 	HAL_Peripheral_EnableClock(HAL_PERIPH_I2C1);
+	SYS_I2C_Init();
 
 	printf("ok\r\n");
 
