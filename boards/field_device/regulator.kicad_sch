@@ -1615,7 +1615,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "10u"
 			(at 55.88 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1696,7 +1696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 106.68 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60.4kΩ"
+		(property "Value" "60.4k"
 			(at 62.23 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +2075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "340kΩ"
+		(property "Value" "340k"
 			(at 93.98 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +2157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 30.48 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2316,7 @@
 				)
 			)
 		)
-		(property "Value" "15kΩ"
+		(property "Value" "15k"
 			(at 100.33 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2396,7 @@
 				)
 			)
 		)
-		(property "Value" "1MΩ"
+		(property "Value" "1M"
 			(at 21.59 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,7 +2555,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5nF"
+		(property "Value" "1.5n"
 			(at 92.71 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Value" "200kΩ"
+		(property "Value" "200k"
 			(at 107.95 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +2794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 30.48 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
