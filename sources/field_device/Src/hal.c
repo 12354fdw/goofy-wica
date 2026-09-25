@@ -32,6 +32,9 @@ void HAL_Peripheral_EnableClock(HAL_Peripheral_t peripheral) {
 	case HAL_PERIPH_I2C2:
 		RCC->APBENR1 |= RCC_APBENR1_I2C2EN;
 		break;
+	case HAL_PERIPH_SYSCFG:
+		RCC->APBENR2 |= RCC_APBENR2_SYSCFGEN;
+		break;
 	}
 }
 

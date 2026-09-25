@@ -23,7 +23,8 @@ typedef enum {
 	HAL_PERIPH_SPI1,
 	HAL_PERIPH_SPI2,
 	HAL_PERIPH_I2C1,
-	HAL_PERIPH_I2C2
+	HAL_PERIPH_I2C2,
+	HAL_PERIPH_SYSCFG
 } HAL_Peripheral_t;
 
 void HAL_GPIO_EnableClock(GPIO_TypeDef *GPIOx);

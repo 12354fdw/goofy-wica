@@ -16,6 +16,10 @@
 #define HSI16_HZ 48000000u
 
 void init(void) {
+	// port remap
+	HAL_Peripheral_EnableClock(HAL_PERIPH_SYSCFG);
+	SYSCFG->CFGR1 |= SYSCFG_CFGR1_PA11_RMP | SYSCFG_CFGR1_PA12_RMP;
+	
 	// init logging
 	HAL_GPIO_EnableClock(GPIOA);
 	HAL_Peripheral_EnableClock(HAL_PERIPH_USART1);
