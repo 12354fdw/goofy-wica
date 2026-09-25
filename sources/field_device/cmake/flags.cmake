@@ -135,14 +135,11 @@ target_link_options(${PROJECT_NAME} PUBLIC
     $<$<CONFIG:Debug>: 
         -T${CMAKE_CURRENT_BINARY_DIR}/stm32c051x6_flash.ld
         -Wl,-Map=${CMAKE_CURRENT_BINARY_DIR}/field_device.map
-        -u
-        _printf_float
+        --specs=nano.specs
         --specs=nosys.specs
         -Wl,--start-group
         -lc
         -lm
-        -lstdc++
-        -lsupc++
         -Wl,--end-group
         -Wl,-z,max-page-size=8
         -Wl,--print-memory-usage
@@ -152,14 +149,11 @@ target_link_options(${PROJECT_NAME} PUBLIC
     $<$<CONFIG:Release>: 
         -T${CMAKE_CURRENT_BINARY_DIR}/stm32c051x6_flash.ld
         -Wl,-Map=${CMAKE_CURRENT_BINARY_DIR}/field_device.map
-        -u
-        _printf_float
+        --specs=nano.specs
         --specs=nosys.specs
         -Wl,--start-group
         -lc
         -lm
-        -lstdc++
-        -lsupc++
         -Wl,--end-group
         -Wl,-z,max-page-size=8
         -Wl,--print-memory-usage
