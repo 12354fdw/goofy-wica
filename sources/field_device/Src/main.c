@@ -23,7 +23,7 @@
 #include "init.h"
 
 int main(void) {
-	printf("hi\r\n");
+	init();
 
 	/* Loop forever */
 	for (;;)

@@ -2,27 +2,49 @@
  * @file    init.c
  * @brief   System and peripheral initialization.
  *
- * Debug UART: USART2 on PA2 (TX) / PA3 (RX), 115200 8N1.
- * The MCU boots on HSI16 (16 MHz), which the UART baud rate uses.
+ * Debug UART: USART1 on PA9 (TX) / PA10 (RX), 115200 8N1.
+ * The MCU boots on HSI16 (48 MHz), which the UART baud rate uses.
  */
 #include "init.h"
-
-#include <stdint.h>
-
+#include "hal.h"
 #include "stm32c051xx.h"
 
+#include <stdint.h>
+#include <stdio.h>
+
 #define UART_BAUD 115200u
-#define HSI16_HZ 16000000u
+#define HSI16_HZ 48000000u
 
 void init(void) {
-	// enable clocks
-	RCC->IOPENR |= RCC_IOPENR_GPIOAEN;
-	RCC->APBENR2 |= RCC_APBENR2_USART1EN;
+	// init logging
+	HAL_GPIO_EnableClock(GPIOA);
+	HAL_Peripheral_EnableClock(HAL_PERIPH_USART1);
 
-	// set PA9 & PA10 to AF mode
-	GPIOA->MODER &= ~(GPIO_MODER_MODE9_Msk | GPIO_MODER_MODE10_Msk);
-	GPIOA->MODER |=
-		(2U << GPIO_MODER_MODE9_Pos) | (2U << GPIO_MODER_MODE10_Pos);
+	// set PA9 to AF1 (USART1_TX)
+	HAL_GPIO_Init(GPIOA, 9, GPIO_MODE_AF, GPIO_PULL_UP);
+	HAL_GPIO_AF_Init(GPIOA, 9, 1);
 
-	
+	// set PA10 to AF1 (USART1_RX)
+	HAL_GPIO_Init(GPIOA, 10, GPIO_MODE_AF, GPIO_PULL_UP);
+	HAL_GPIO_AF_Init(GPIOA, 10, 1);
+
+	USART1->BRR = HSI16_HZ / UART_BAUD;
+	USART1->CR1 |= USART_CR1_TE | USART_CR1_RE | USART_CR1_UE;
+
+	printf("hello\r\n");
+
+	// actual init
+	printf("init...");
+
+	printf("ok\r\n");
+}
+
+int _write(int file, char *ptr, int len) {
+	(void)file;
+	for (int i = 0; i < len; i++) {
+		while (!(USART1->ISR & USART_ISR_TXE_TXFNF))
+			;
+		USART1->TDR = ptr[i];
+	}
+	return len;
 }
