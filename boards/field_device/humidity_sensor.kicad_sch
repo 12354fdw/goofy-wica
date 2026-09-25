@@ -1167,7 +1167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75129050-363a-4409-981a-8e18b0ee6b61")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 34.29 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -1227,7 +1227,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/2e4263c7-c8e1-4b02-9f0c-6ffdd831f2a9"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
