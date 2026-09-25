@@ -13,9 +13,12 @@ void init(void) {
 	// port remap
 	HAL_Peripheral_EnableClock(HAL_PERIPH_SYSCFG);
 	SYSCFG->CFGR1 |= SYSCFG_CFGR1_PA11_RMP | SYSCFG_CFGR1_PA12_RMP;
-	
-	// init logging
+
+	// init ports
 	HAL_GPIO_EnableClock(GPIOA);
+	HAL_GPIO_EnableClock(GPIOB);
+
+	// init logging
 	HAL_Peripheral_EnableClock(HAL_PERIPH_USART1);
 
 	// set PA9 to AF1 (USART1_TX)
