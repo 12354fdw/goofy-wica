@@ -1,0 +1,67 @@
+(kicad_symbol_lib (version 20211014) (generator UnEasy-LCSC)
+  (symbol "BX-TS-26-342TP"
+    (in_bom yes)
+    (on_board yes)
+      (property "Reference" "U" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "BX-TS-26-342TP" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "UnEasy-LCSC:KEY-SMD_L3.9-W3.0-LS5.0-EH" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "LCSC Part" "C18078117" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "Manufacturer" "Bossie(博锡)" (at 0 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "MPN" "BX-TS-26-342TP" (at 0 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide))
+    (symbol "BX-TS-26-342TP_0_1"
+            (pin unspecified line
+              (at -5.08 -1.27 0)
+              (length 2.54)
+              (name "1" (effects (font (size 1.27 1.27))))
+              (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at 5.08 -1.27 180)
+              (length 2.54)
+              (name "2" (effects (font (size 1.27 1.27))))
+              (number "2" (effects (font (size 1.27 1.27))))
+            )
+            (polyline
+              (pts
+                (xy 0.76 -0.76) (xy -1.27 -0.25)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy -1.71 -1.27) (xy -2.73 -1.27)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (circle
+              (center -1.21 -1.27)
+              (radius 0.38)
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy 1.27 -1.27) (xy 2.29 -1.27)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (circle
+              (center 0.76 -1.27)
+              (radius 0.38)
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+    )
+  )
+)

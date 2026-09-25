@@ -1067,10 +1067,6 @@
 		(color 0 0 0 0)
 		(uuid "d6c1ce4f-0c0c-4df0-be97-4bdbdd773941")
 	)
-	(no_connect
-		(at 68.58 34.29)
-		(uuid "f7e05b09-0d50-4f0c-be79-e1d1d4251fcb")
-	)
 	(wire
 		(pts
 			(xy 17.78 20.32) (xy 30.48 20.32)
@@ -1283,6 +1279,85 @@
 		(uuid "4ac7f0e2-9e69-4714-ac96-5d1e99658c50")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04d10536-9cb5-451e-a54b-6fa2661d1920")
+		(property "Reference" "#PWR049"
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b2ff004-5b78-4f34-82f4-a3b4905ae037")
+		)
+		(instances
+			(project "field_device"
+				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 41.91 270)
 		(unit 1)
@@ -1294,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cbef31a-9dd3-4cec-a8d0-d06b40e634be")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1355,7 +1430,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1373,7 +1448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f084c05-3f44-4705-a538-04d7fe115913")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 102.87 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -1433,7 +1508,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1451,7 +1526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "309340e6-4a9d-4d59-b52b-59186a7e4a8d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 118.11 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -1512,7 +1587,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 55.88 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1610,7 +1685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec754e3-13d4-4801-98a2-e4c354fe83f5")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 106.68 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1632,7 +1707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 103.8352 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1674,7 +1749,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1692,7 +1767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555a5443-928f-409c-836a-31c2986da2b8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 59.69 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -1752,7 +1827,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1770,7 +1845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c25031f-f580-4785-b5e3-c9f3d9d19472")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 62.23 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1792,7 +1867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 61.468 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -1834,7 +1909,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1989,7 +2064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7685118f-95a8-4338-ae92-1ce209228164")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 93.98 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 89.662 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -2053,7 +2128,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79154b38-9e30-4a78-9bf0-e76f5f1aa6a2")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 30.48 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,7 +2168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 27.6352 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2135,7 +2210,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2153,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9a0d4e6-be40-4bc1-b6ea-498f875cd574")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 26.67 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2213,7 +2288,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbcf734a-0ac6-4ed2-acbd-f73fbf5416b1")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 100.33 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 100.33 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -2293,7 +2368,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2311,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f3e9e9-89c7-4af8-b700-28e5979ec96c")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 21.59 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 21.59 43.688 90)
 			(hide yes)
 			(show_name no)
@@ -2373,7 +2448,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e62868-279a-4695-9822-ffe17990731f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 62.23 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2452,7 +2527,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b8c1a2-3bea-4554-b213-eb8f040878be")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 92.71 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,7 +2565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 96.52 28.2448 0)
 			(hide yes)
 			(show_name no)
@@ -2532,7 +2607,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee30f23a-e97a-468a-98f3-9f94027f1bac")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 107.95 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 107.95 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -2612,7 +2687,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb015289-aefa-4c36-add8-97ad7e7551de")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 26.67 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2690,7 +2765,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd711b2b-b303-4803-8464-51fa3f07fef7")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 30.48 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 27.6352 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2772,7 +2847,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
