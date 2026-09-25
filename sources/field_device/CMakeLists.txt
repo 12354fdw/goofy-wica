@@ -31,11 +31,14 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/files.cmake)
 # Add sources to executable/library
 target_sources(${PROJECT_NAME} PRIVATE
   # User defined sources
+  "${CMAKE_CURRENT_SOURCE_DIR}/Src/init.c"
 )
 
 # Add include directories
 target_include_directories(${PROJECT_NAME} PRIVATE
   # User defined include directories
+  "${CMAKE_CURRENT_SOURCE_DIR}/Inc/CMSIS"
+  "${CMAKE_CURRENT_SOURCE_DIR}/Inc/Device"
 )
 
 # Compiler options
