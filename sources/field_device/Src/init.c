@@ -1,10 +1,3 @@
-/**
- * @file    init.c
- * @brief   System and peripheral initialization.
- *
- * Debug UART: USART1 on PA9 (TX) / PA10 (RX), 115200 8N1.
- * The MCU boots on HSI16 (48 MHz), which the UART baud rate uses.
- */
 #include "init.h"
 #include "hal.h"
 #include "stm32c051xx.h"

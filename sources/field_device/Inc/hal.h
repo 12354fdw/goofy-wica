@@ -36,8 +36,7 @@ typedef enum {
 void HAL_GPIO_EnableClock(GPIO_TypeDef *GPIOx);
 void HAL_Peripheral_EnableClock(HAL_Peripheral_t periph_id);
 
-	void
-	HAL_GPIO_Init(GPIO_TypeDef *GPIOx, uint32_t pin, GPIOMode_t mode,
+void HAL_GPIO_Init(GPIO_TypeDef *GPIOx, uint32_t pin, GPIOMode_t mode,
 				  GPIOPull_t pull);
 
 void HAL_GPIO_AF_Init(GPIO_TypeDef *GPIOx, uint32_t pin, uint32_t af_num);
