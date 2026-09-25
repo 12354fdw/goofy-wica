@@ -4,6 +4,22 @@
 #include "stm32c051xx.h"
 #include <stdint.h>
 
+#define BUS_IOPENR 0U
+#define BUS_APBENR1 1U
+#define BUS_APBENR2 2U
+
+#define PERIPH_ID(bus, mask) (((bus) << 24) | (mask))
+
+typedef enum {
+	HAL_PERIPH_USART1 = PERIPH_ID(BUS_APBENR2, RCC_APBENR2_USART1EN),
+	HAL_PERIPH_USART2 = PERIPH_ID(BUS_APBENR1, RCC_APBENR1_USART2EN),
+	HAL_PERIPH_SPI1 = PERIPH_ID(BUS_APBENR2, RCC_APBENR2_SPI1EN),
+	HAL_PERIPH_SPI2 = PERIPH_ID(BUS_APBENR1, RCC_APBENR1_SPI2EN),
+	HAL_PERIPH_I2C1 = PERIPH_ID(BUS_APBENR1, RCC_APBENR1_I2C1EN),
+	HAL_PERIPH_I2C2 = PERIPH_ID(BUS_APBENR1, RCC_APBENR1_I2C2EN),
+	HAL_PERIPH_SYSCFG = PERIPH_ID(BUS_APBENR2, RCC_APBENR2_SYSCFGEN)
+} HAL_Peripheral_t;
+
 typedef enum {
 	GPIO_MODE_INPUT = 0,
 	GPIO_MODE_OUTPUT = 1,
@@ -17,18 +33,8 @@ typedef enum {
 	GPIO_PULL_DOWN = 2
 } GPIOPull_t;
 
-typedef enum {
-	HAL_PERIPH_USART1,
-	HAL_PERIPH_USART2,
-	HAL_PERIPH_SPI1,
-	HAL_PERIPH_SPI2,
-	HAL_PERIPH_I2C1,
-	HAL_PERIPH_I2C2,
-	HAL_PERIPH_SYSCFG
-} HAL_Peripheral_t;
-
 void HAL_GPIO_EnableClock(GPIO_TypeDef *GPIOx);
-void HAL_Peripheral_EnableClock(HAL_Peripheral_t);
+void HAL_Peripheral_EnableClock(HAL_Peripheral_t periph_id);
 
 	void
 	HAL_GPIO_Init(GPIO_TypeDef *GPIOx, uint32_t pin, GPIOMode_t mode,

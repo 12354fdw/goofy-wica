@@ -12,28 +12,18 @@ void HAL_GPIO_EnableClock(GPIO_TypeDef *GPIOx) {
 	}
 }
 
-void HAL_Peripheral_EnableClock(HAL_Peripheral_t peripheral) {
-	switch (peripheral) {
-	case HAL_PERIPH_USART1:
-		RCC->APBENR2 |= RCC_APBENR2_USART1EN;
+void HAL_Peripheral_EnableClock(HAL_Peripheral_t periph_id) {
+	uint32_t enable_mask = periph_id & 0x00FFFFFFU;
+
+	switch (periph_id >> 24) {
+	case BUS_IOPENR:
+		RCC->IOPENR |= enable_mask;
 		break;
-	case HAL_PERIPH_USART2:
-		RCC->APBENR1 |= RCC_APBENR1_USART2EN;
+	case BUS_APBENR1:
+		RCC->APBENR1 |= enable_mask;
 		break;
-	case HAL_PERIPH_SPI1:
-		RCC->APBENR2 |= RCC_APBENR2_SPI1EN;
-		break;
-	case HAL_PERIPH_SPI2:
-		RCC->APBENR1 |= RCC_APBENR1_SPI2EN;
-		break;
-	case HAL_PERIPH_I2C1:
-		RCC->APBENR1 |= RCC_APBENR1_I2C1EN;
-		break;
-	case HAL_PERIPH_I2C2:
-		RCC->APBENR1 |= RCC_APBENR1_I2C2EN;
-		break;
-	case HAL_PERIPH_SYSCFG:
-		RCC->APBENR2 |= RCC_APBENR2_SYSCFGEN;
+	case BUS_APBENR2:
+		RCC->APBENR2 |= enable_mask;
 		break;
 	}
 }
