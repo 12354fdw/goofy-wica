@@ -31,17 +31,30 @@ void init(void) {
 
 	printf("hello\r\n");
 
+	// actual init
+
 	printf("init peripherals...");
 
 	// SPI1 for RF
 	HAL_Peripheral_EnableClock(HAL_PERIPH_SPI1);
 
+	// I2C1 for I2C bus
+	HAL_Peripheral_EnableClock(HAL_PERIPH_I2C1);
+
 	printf("ok\r\n");
 
-	// actual init
 	printf("init pins...");
 
 	SYS_RF_InitPins();
+
+	// I2C bus
+	// SCL
+	HAL_GPIO_Init(GPIOB, 6, GPIO_MODE_AF, GPIO_PULL_UP);
+	HAL_GPIO_AF_Init(GPIOB, 6, 6);
+
+	// SDA
+	HAL_GPIO_Init(GPIOB, 7, GPIO_MODE_AF, GPIO_PULL_UP);
+	HAL_GPIO_AF_Init(GPIOB, 7, 6);
 
 	printf("ok\r\n");
 }
