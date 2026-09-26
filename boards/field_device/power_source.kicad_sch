@@ -1845,7 +1845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2560,7 +2560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ac8cc8-40b9-4bbf-93f8-be550a49e151")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 72.39 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2622,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2662,7 +2662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 107.6452 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2822,7 +2822,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 76.2 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2915,7 +2915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 49.2252 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3132,7 +3132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d9a735-1f73-4f9c-bde0-35cb048ba287")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 74.93 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3196,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)

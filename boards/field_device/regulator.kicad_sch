@@ -1378,12 +1378,6 @@
 		(uuid "5026150f-df64-41e5-a7cb-7b1ef643f072")
 	)
 	(junction
-		(at 22.86 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80cc9bdd-685d-4272-9a23-61e2c60d801f")
-	)
-	(junction
 		(at 62.23 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1412,6 +1406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3e6721d-e845-49ad-8319-0753406040da")
+	)
+	(junction
+		(at 19.05 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe043bce-08df-4aa6-914a-91a7bfe21908")
 	)
 	(no_connect
 		(at 100.33 34.29)
@@ -1446,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "41590820-2eae-447f-912f-a5bce249794d")
+	)
+	(wire
+		(pts
+			(xy 19.05 36.83) (xy 22.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41711271-a77c-4194-acec-67139e3fe4e3")
 	)
 	(wire
 		(pts
@@ -1489,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 57.15) (xy 22.86 57.15)
+			(xy 17.78 36.83) (xy 19.05 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1567,16 +1577,6 @@
 		)
 		(uuid "bd1120be-adaa-4b4a-b566-42e05cf28fd0")
 	)
-	(wire
-		(pts
-			(xy 22.86 36.83) (xy 22.86 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de5cdb01-caad-4a37-b915-5c514094d9cf")
-	)
 	(label "EN"
 		(at 45.72 36.83 0)
 		(effects
@@ -1629,7 +1629,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 21.59 57.15 180)
+		(at 17.78 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.792 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -1909,7 +1909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 30.48 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -2049,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f46cc0-c36c-44e9-b662-739d111b85ee")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 22.86 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2109,7 +2109,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 52.578 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2231,7 +2231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 64.008 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -2388,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UnEasy-LCSC:IND-SMD_L4.0-W4.0_B"
 			(at 104.14 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2548,7 +2548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 50.8 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2854,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sensor_Current:LEM_HX02-P"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -3014,7 +3014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor_Current:LEM_HX02-P"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 73.9648 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3096,7 +3096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor_Current:LEM_HX02-P"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 34.5948 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3178,7 +3178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 64.008 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -3384,7 +3384,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 64.77 0)
+		(at 19.05 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3394,8 +3394,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb015289-aefa-4c36-add8-97ad7e7551de")
-		(property "Reference" "#PWR027"
-			(at 22.86 71.12 0)
+		(property "Reference" "#PWR026"
+			(at 19.05 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +3406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 69.85 0)
+			(at 19.05 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3416,7 +3416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 64.77 0)
+			(at 19.05 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 64.77 0)
+			(at 19.05 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +3438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 64.77 0)
+			(at 19.05 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3454,7 +3454,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3462,7 +3462,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 22.86 60.96 0)
+		(at 19.05 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3473,7 +3473,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd711b2b-b303-4803-8464-51fa3f07fef7")
 		(property "Reference" "C10"
-			(at 26.67 59.6899 0)
+			(at 22.86 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3484,7 +3484,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 26.67 62.2299 0)
+			(at 22.86 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3494,8 +3494,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 23.8252 64.77 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 20.0152 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +3506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 60.96 0)
+			(at 19.05 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +3517,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 22.86 60.96 0)
+			(at 19.05 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

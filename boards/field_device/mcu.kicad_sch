@@ -3135,7 +3135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc9e67a-05fd-407b-a702-24d9f1e1a3f8")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 181.864 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 166.37 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -3197,7 +3197,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/441958c3-66c1-4026-b548-1512d5f01f19"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3405,7 +3405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 75.692 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -3682,7 +3682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b16d68-450e-4b72-9ce5-f63436fcbfaf")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 181.864 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 166.37 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -3744,7 +3744,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/441958c3-66c1-4026-b548-1512d5f01f19"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3919,7 +3919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "875f4716-2bcc-4b96-8df4-98d5d6a76405")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 198.882 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 166.37 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -3981,7 +3981,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/441958c3-66c1-4026-b548-1512d5f01f19"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3998,7 +3998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "927a49d8-8757-4f33-b3b0-5eef9b74d44d")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 181.864 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 166.37 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -4060,7 +4060,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/441958c3-66c1-4026-b548-1512d5f01f19"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4179,7 +4179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 95.758 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -4320,7 +4320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0027e34-d8b9-4d15-8a63-4004b8808f51")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 198.882 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4340,7 +4340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 166.37 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -4382,7 +4382,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/441958c3-66c1-4026-b548-1512d5f01f19"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5149,7 +5149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 85.852 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -5208,7 +5208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcaabcb6-3685-427e-a58a-a125350fba81")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 173.99 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5228,10 +5228,10 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 173.99 77.978 90)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/441958c3-66c1-4026-b548-1512d5f01f19"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
