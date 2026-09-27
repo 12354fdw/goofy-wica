@@ -1135,7 +1135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "618ebfc0-c182-4671-9623-de7618ccb95c")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 129.54 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1157,7 +1157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 126.6952 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1221,7 +1221,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1397,7 +1397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c95f843-bdab-4fac-a222-013ec7180048")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 71.12 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 71.12 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -1459,7 +1459,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1477,7 +1477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad01b713-a95e-45a1-9023-af24845fd6ef")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 142.24 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1499,7 +1499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 139.3952 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1541,7 +1541,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
