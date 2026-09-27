@@ -2191,7 +2191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0711377e-1f5a-49cb-bf2b-5147cc0d5930")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 25.4 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2251,7 +2251,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2456,7 +2456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b5177ad-bb87-4464-917e-f9690dccdb4e")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 50.8 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,7 +2478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 47.9552 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2520,7 +2520,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "340c4e7c-48ef-4ad6-8beb-999ecc07fef8")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 172.72 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 168.91 39.0652 0)
 			(hide yes)
 			(show_name no)
@@ -2677,7 +2677,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2695,7 +2695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3803e9c0-6f70-4484-8442-009488978d7b")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 208.28 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2759,7 +2759,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3012,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60a6b850-7f6a-4787-842d-f83befaa198a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 22.86 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3072,7 +3072,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3112,7 +3112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 166.37 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3172,7 +3172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a1d0702-1a5c-4086-bcfd-91743f2ac3fb")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 158.75 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3236,7 +3236,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3412,7 +3412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d5ebc4a-75e4-4052-affd-1ac7f63e5d11")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 147.32 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 144.4752 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3476,7 +3476,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3494,7 +3494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96f86b58-6df0-4dec-8f94-4a0fd940e363")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 190.5 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,7 +3558,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f9d2e0-dbe7-4009-b8dd-6d38b0eaf386")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 26.67 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3598,7 +3598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 23.8252 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3640,7 +3640,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3757,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 195.58 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3975,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c76f20-96da-4477-8b41-64e40c74418e")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 63.5 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +3997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 60.6552 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4039,7 +4039,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4057,7 +4057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdda6997-af47-4612-8ac0-20b89456d807")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 78.74 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,7 +4121,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e86df4a7-a559-4994-b44c-fd26593b8a99")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 38.1 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 35.2552 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4385,7 +4385,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee71c511-4371-42eb-98bf-947e58746add")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 22.86 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4463,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/d15b20d6-817c-48cf-abc4-788b93984e6d"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
