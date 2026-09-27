@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.742,
-          "width": 0.364
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,23 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
-          "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -146,7 +130,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -159,9 +143,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.15,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -211,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
         0.3,
         0.5
       ],
@@ -502,6 +487,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -545,7 +531,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -609,18 +594,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -630,72 +603,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field6",
-          "name": "Field6",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field5",
-          "name": "Field5",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -714,27 +627,19 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
-    },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -748,7 +653,7 @@
         "uuid": "99623870-118f-49fe-bbf0-fb0b890db442"
       }
     ],
-    "used_designators": "R1-21,R41,SC1,J1-2,BT1-2,#FLG1-2,Y1-2,#PWR1-49,FB1,L1-3,C1-26,SW1-2,AE1,D1-4,U1-7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
