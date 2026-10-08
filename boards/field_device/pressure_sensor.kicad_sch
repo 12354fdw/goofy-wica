@@ -1005,7 +1005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11eba182-c53b-45fb-bfbb-ca80d5a2fe06")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 138.43 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -1065,7 +1065,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1094,7 +1094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 124.46 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1105,7 +1105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.6152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1355,7 +1355,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k?"
 			(at 71.12 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1365,7 +1365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.12 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -1436,7 +1436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 142.24 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1447,7 +1447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1507,7 +1507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd49a63-8162-4a18-b501-1b11d65de455")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR018"
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1567,7 +1567,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "#PWR031")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1584,7 +1584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d531ba59-ae5a-4da6-a98b-d647efed5a4d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR017"
 			(at 120.65 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -1644,7 +1644,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "#PWR032")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1793,7 +1793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9553b8a-f317-4f10-a895-c88ca89d1214")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1853,7 +1853,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/ae167bff-0cee-4447-ad8b-23808a2f268b"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

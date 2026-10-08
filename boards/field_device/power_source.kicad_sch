@@ -1745,7 +1745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c84229b-95eb-43aa-8799-429138be8510")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 48.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1805,7 +1805,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KT-0603R"
+		(property "Value" "GREEN"
 			(at 92.71 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cde9c5-5992-4de1-bc2a-7c76d9c3a712")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 74.93 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2111,7 +2111,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "515d291d-bcec-4944-bcbd-5fdac137a166")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 30.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2189,7 +2189,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "518795dd-6d90-457e-9681-eff8d93e9c6a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 72.39 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2267,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2279,10 +2279,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e6eb584-7f72-4486-b513-3df34665d9fd")
 		(property "Reference" "SC1"
@@ -2367,7 +2367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90da73bd-9fa0-4151-9783-f5022b1352d5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 92.71 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -2427,7 +2427,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2439,10 +2439,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945c7cbd-31d6-47d9-9242-196e44695eaa")
 		(property "Reference" "BT1"
@@ -2580,7 +2580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 72.39 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -2651,7 +2651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 110.49 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d91f708-09a6-45dd-bcd1-d268e7de4dd8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 106.68 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2782,7 +2782,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2811,7 +2811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KT-0603R"
+		(property "Value" "ORANGE"
 			(at 80.01 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2904,7 +2904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 52.07 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +2975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6776f2d-3186-4e58-b803-4f53b86b765d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3036,7 +3036,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k5"
 			(at 74.93 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
