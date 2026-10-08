@@ -162,7 +162,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -506,9 +506,7 @@
   },
   "legacy": [],
   "libraries": {
-    "pinned_footprint_libs": [
-      "UnEasy-LCSC"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -548,7 +546,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/User/Downloads/",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

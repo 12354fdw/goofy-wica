@@ -3312,7 +3312,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_01x05_Pin"
 			(at 42.545 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
 			(at 41.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3483,7 +3483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C051F8P6"
+		(property "Value" "STM32C011F6Px"
 			(at 129.1433 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +3620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 114.3 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k?"
 			(at 91.44 46.9901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 82.55 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +4418,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TS-1088-AR02016"
+		(property "Value" "SW_SPST"
 			(at 59.436 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,7 +4429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "UnEasy-LCSC:SW-SMD_L3.9-W3.0-P4.45"
+		(property "Footprint" "UnEasy-LCSC:KEY-SMD_L3.9-W3.0-LS5.0-EH"
 			(at 69.85 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4499,7 +4499,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_01x02_Pin"
 			(at 211.455 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +4509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4736,7 +4736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 101.6 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Value" "KT-0603R"
+		(property "Value" "STATUS"
 			(at 182.88 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 116.84 90)
 			(hide yes)
 			(show_name no)
