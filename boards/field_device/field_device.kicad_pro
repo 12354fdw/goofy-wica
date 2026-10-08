@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -198,7 +214,6 @@
         0.2,
         0.25,
         0.3,
-        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -535,6 +550,7 @@
       "netlist": "",
       "plot": "C:/Users/User/Downloads/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -717,7 +733,7 @@
         "uuid": "99623870-118f-49fe-bbf0-fb0b890db442"
       }
     ],
-    "used_designators": "R16-18",
+    "used_designators": "U1-6,SW1,SC1,R1-16,L1-3,J1-2,BT1,#FLG1-2,D1-3,AE1,C1-21,C23,Y1,#PWR1-48,#PWR50-51",
     "variants": []
   },
   "sheets": [
