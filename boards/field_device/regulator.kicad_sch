@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "6cc86d36-10f7-4702-b9de-f1a25424d554")
 	(paper "A4")
+	(title_block
+		(title "Field Device Regulator")
+		(date "2026-10-09")
+		(rev "5")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1270,7 +1275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0698f037-5077-4076-afdd-717c89fbe6c9")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 83.82 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1333,7 +1338,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1351,7 +1356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a679333-f0d7-4d32-befe-36055e7918cd")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 60.96 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1440,7 +1445,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5234ebf5-940d-4223-bcfe-159fcc4f4a73")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1518,7 +1523,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68cae96d-a96c-48ec-81da-77ef10a81941")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 104.14 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1678,7 +1683,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1777,7 +1782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f500ead-7401-490c-b020-9ce986af1458")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 76.2 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,7 +1845,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1858,7 +1863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "986c1448-18c3-456d-8abb-c329583bc93e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 101.6 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -1918,7 +1923,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5390799-8fdd-4e61-864e-f4d83b22ec15")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 39.37 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -1996,7 +2001,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2014,7 +2019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b2e13b-07e5-457c-a788-f3927b19f2f2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 60.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2074,7 +2079,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51/ed5659f9-5584-4daa-a017-4d4def535a07"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

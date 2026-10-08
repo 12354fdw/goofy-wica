@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "c2631afd-bbbb-4d49-a528-d99e9e4785dc")
 	(paper "A4")
+	(title_block
+		(title "Field Device Humidity Sensor")
+		(date "2026-10-09")
+		(rev "5")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -976,6 +981,16 @@
 		)
 		(uuid "d8849d33-21fc-49b4-bec3-7f21a8a0e582")
 	)
+	(label "VDD"
+		(at 40.64 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b81ed158-7d69-4f97-a9c8-fd4c95e58e55")
+	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 38.1 27.94 180)
@@ -1538,7 +1553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 25.4 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)

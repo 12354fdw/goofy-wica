@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "7ab5a3c8-5616-464b-86c1-688fde7a9a82")
 	(paper "A4")
+	(title_block
+		(title "Field Device Power Supply")
+		(date "2026-10-09")
+		(rev "5")
+	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
@@ -1655,6 +1660,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7d9cf5-601f-4ad5-97ef-794e8aa43c8d")
+	)
+	(wire
+		(pts
 			(xy 62.23 77.47) (xy 68.58 77.47)
 		)
 		(stroke
@@ -1672,16 +1687,6 @@
 			(type default)
 		)
 		(uuid "f71cddbd-1fe3-4c82-a767-2499306e4d06")
-	)
-	(wire
-		(pts
-			(xy 81.28 40.64) (xy 72.39 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7749bb-6c04-4063-b6f8-a8b0bd8bbbf7")
 	)
 	(label "chrg"
 		(at 76.2 85.09 270)
@@ -1712,6 +1717,16 @@
 			(justify left bottom)
 		)
 		(uuid "3347ca9b-ebfe-4c0f-b74e-99fb60a032ea")
+	)
+	(label "ISET"
+		(at 77.47 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1ca2670-d011-4c14-ac6d-4aac784c699f")
 	)
 	(label "done"
 		(at 104.14 43.18 0)
@@ -1745,7 +1760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c84229b-95eb-43aa-8799-429138be8510")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 48.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1805,7 +1820,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cde9c5-5992-4de1-bc2a-7c76d9c3a712")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 74.93 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2111,7 +2126,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "515d291d-bcec-4944-bcbd-5fdac137a166")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 30.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2189,7 +2204,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "518795dd-6d90-457e-9681-eff8d93e9c6a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 72.39 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2282,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2367,7 +2382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90da73bd-9fa0-4151-9783-f5022b1352d5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 92.71 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -2427,7 +2442,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2560,7 +2575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ac8cc8-40b9-4bbf-93f8-be550a49e151")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 72.39 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2637,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2722,7 +2737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d91f708-09a6-45dd-bcd1-d268e7de4dd8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 106.68 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2782,7 +2797,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2975,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6776f2d-3186-4e58-b803-4f53b86b765d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3036,7 +3051,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d9a735-1f73-4f9c-bde0-35cb048ba287")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 74.93 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3211,7 @@
 		(instances
 			(project "field_device"
 				(path "/99623870-118f-49fe-bbf0-fb0b890db442/e9c11804-cc5e-4b00-a5de-7502c32ebb51"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
