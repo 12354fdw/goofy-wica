@@ -1706,7 +1706,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2uH Ceaiya CR4018-2R2M"
+		(property "Value" "CR4018-2R2M"
 			(at 45.212 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
