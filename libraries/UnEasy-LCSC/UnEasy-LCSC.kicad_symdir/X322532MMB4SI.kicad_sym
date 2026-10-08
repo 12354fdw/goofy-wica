@@ -1,0 +1,115 @@
+(kicad_symbol_lib (version 20211014) (generator UnEasy-LCSC)
+  (symbol "X322532MMB4SI"
+    (in_bom yes)
+    (on_board yes)
+      (property "Reference" "X" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Value" "X322532MMB4SI" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27))))
+      (property "Footprint" "UnEasy-LCSC:CRYSTAL-SMD_4P-L3.2-W2.5-BL" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "LCSC Part" "C113671" (at 0 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "Manufacturer" "YXC(扬兴晶振)" (at 0 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "MPN" "X322532MMB4SI" (at 0 -11.43 0)
+        (effects (font (size 1.27 1.27)) hide))
+    (symbol "X322532MMB4SI_0_1"
+            (pin input line
+              (at -10.16 -2.54 0)
+              (length 5.08)
+              (name "OSC1" (effects (font (size 1.27 1.27))))
+              (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin input line
+              (at 10.16 2.54 180)
+              (length 5.08)
+              (name "OSC2" (effects (font (size 1.27 1.27))))
+              (number "3" (effects (font (size 1.27 1.27))))
+            )
+            (polyline
+              (pts
+                (xy -1.27 -1.02) (xy -1.27 1.02)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy 0.76 -1.78) (xy -0.76 -1.78)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy 1.27 -1.02) (xy 1.27 1.02)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78) (xy 0.76 -1.78)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0.00) (xy 1.27 0.00)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0.00) (xy -1.52 0.00)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy 1.27 -1.78) (xy 1.27 1.78)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy -1.27 -1.78) (xy -1.27 1.78)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (polyline
+              (pts
+                (xy 0.76 1.78) (xy 0.76 -1.78) (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78)
+              )
+              (stroke (width 0.254) (type default))
+              (fill (type none))
+            )
+            (pin input line
+              (at 10.16 -2.54 180)
+              (length 5.08)
+              (name "GND" (effects (font (size 1.27 1.27))))
+              (number "2" (effects (font (size 1.27 1.27))))
+            )
+            (pin input line
+              (at -10.16 2.54 0)
+              (length 5.08)
+              (name "GND" (effects (font (size 1.27 1.27))))
+              (number "4" (effects (font (size 1.27 1.27))))
+            )
+            (rectangle
+              (start -5.08 5.08)
+              (end 5.08 -5.08)
+              (stroke (width 0.254) (type default))
+              (fill (type background))
+            )
+    )
+  )
+)
