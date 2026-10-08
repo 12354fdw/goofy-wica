@@ -1834,7 +1834,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "KT-0603R"
 			(at 92.71 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,10 +2279,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e6eb584-7f72-4486-b513-3df34665d9fd")
 		(property "Reference" "SC1"
@@ -2439,10 +2439,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "945c7cbd-31d6-47d9-9242-196e44695eaa")
 		(property "Reference" "BT1"
@@ -2580,7 +2580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 72.39 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -2651,7 +2651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 110.49 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ORANGE"
+		(property "Value" "KT-0603R"
 			(at 80.01 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2904,7 +2904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 52.07 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1k"
 			(at 74.93 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
