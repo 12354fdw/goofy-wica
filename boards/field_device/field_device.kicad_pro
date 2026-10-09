@@ -63,7 +63,7 @@
           "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.3
@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|68270449|60935000|36c6f0ed-ba7e-4d03-a7ae-9fb6bc7dc9eb|41859721-9475-485a-9f50-85250b67a317",
+          ""
+        ],
+        [
+          "shorting_items|75270449|60800000|071cd8a2-fb17-433f-9911-83a1fc3f6630|c3868426-95e1-4630-a9bd-a9877d8ed54f",
+          ""
+        ],
+        [
+          "unconnected_items|69227499|53932500|F.Cu|4|957967a5-e266-4e6a-9973-a9445bc20edc|9a952fc8-bd99-4812-8fc7-8cabd6422780",
+          ""
+        ],
+        [
+          "unconnected_items|69250000|56402500|F.Cu|4|f6a00d2a-4698-4b36-880e-f98546a45675|9da532b7-1e7d-4dfc-85c8-1c8b9e746f83",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -549,7 +566,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/User/Downloads/",
+      "plot": "production/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

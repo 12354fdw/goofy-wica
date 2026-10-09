@@ -1,0 +1,58 @@
+### Footprint positions - created on 2026-10-09T19:07:59 ###
+### Printed by KiCad version 10.0.6
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                    Package                                                  PosX       PosY       Rot  Side
+AE1       monopole               TI_DN023_868-955MHz_Antenna                           76.2704   -79.3000  180.0000  top
+BT1       Battery                battery_2_smd                                         34.2647   -25.7570    0.0000  top
+C1        CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           55.9375   -43.5000  180.0000  top
+C2        CL05B104KO5NNNC_100nF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           56.8000   -38.6000  180.0000  top
+C3        CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           59.5762   -36.2600  -90.0000  top
+C4        CL05B104KO5NNNC_100nF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           60.9763   -36.2600  -90.0000  top
+C5        CL05B104KO5NNNC_100nF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           49.5675   -49.3800  -90.0000  top
+C6        CL05B104KO5NNNC_100nF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           49.5675   -47.1250   90.0000  top
+C7        CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           40.5061   -30.0225  180.0000  top
+C8        CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           36.3561   -30.0225    0.0000  top
+C9        CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           38.5288   -37.3240  180.0000  top
+C10       CL10A226MQ8NRNC_22uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           38.5023   -42.1550  180.0000  top
+C11       CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           71.3083   -42.6350   90.0000  top
+C12       CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           68.5083   -41.7350    0.0000  top
+C13       CL10A106KP8NNNC_10uF   C_0603_1608Metric_Pad1.08x0.95mm_HandSolder           72.7083   -47.9350   90.0000  top
+C14       CL05B104KO5NNNC_100nF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           68.5083   -43.3350    0.0000  top
+C15       CL05B104KO5NNNC_100nF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           71.3083   -47.9350   90.0000  top
+C16       47nF                   C_0603_1608Metric                                     71.2000   -50.9000    0.0000  top
+C17       CL05B104KO5NNNC_100nF  C_0402_1005Metric                                     70.9000   -49.6000    0.0000  top
+C18       0402CG101J500NT_100pF  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           69.2275   -54.5000   90.0000  top
+C19       C_Shunt_1              C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           71.0704   -56.4000    0.0000  top
+C20       C_Shunt_2              C_0402_1005Metric_Pad0.74x0.62mm_HandSolder           71.0704   -57.5975    0.0000  top
+D1        KT-0603R               LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder         76.0787   -38.0600  180.0000  top
+D2        KT-0603R               LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder         45.4647   -32.0320  -90.0000  top
+D3        KT-0603R               LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder         49.5647   -32.0570  -90.0000  top
+J1        ~                      PinHeader_1x05_P2.54mm_Vertical                       76.2400   -26.8000  -90.0000  top
+J2        ~                      PinHeader_1x02_P2.54mm_Vertical                       57.9250   -26.9000   90.0000  top
+L1        CR4018-2R2M            IND-SMD_L4.0-W4.0                                     42.5680   -39.7180   90.0000  top
+L2        47nH                   L_0805_2012Metric_Pad1.05x1.20mm_HandSolder           70.4000   -52.5000  180.0000  top
+R1        0603WAF3300T5E_330R    C_0603_1608Metric                                     55.9000   -45.2000  180.0000  top
+R2        0402WGF1002TCE_10k     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           60.9763   -33.2600   90.0000  top
+R3        0402WGF1002TCE_10k     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           67.7762   -32.7600  180.0000  top
+R5        0402WGF220JTCE_22R     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           70.5763   -38.9600    0.0000  top
+R6        0402WGF220JTCE_22R     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           63.9763   -46.8600    0.0000  top
+R7        0402WGF220JTCE_22R     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           70.5763   -37.6600    0.0000  top
+R8        1k                     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           62.0975   -30.7712  180.0000  top
+R9        1k                     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           62.0975   -29.6000  180.0000  top
+R10       0402WGF1002TCE_10k     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           74.4787   -36.6600    0.0000  top
+R11       1k                     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           42.6647   -34.7570  -90.0000  top
+R12       1k                     R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           45.4647   -35.3570   90.0000  top
+R13       0603WAF3601T5E         R_0603_1608Metric                                     34.5643   -39.7390  180.0000  top
+R14       0603WAF3302T5E         R_0603_1608Metric                                     34.5643   -38.1390    0.0000  top
+R15       0                      R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           69.2500   -57.0000  -90.0000  top
+SC1       Solar_Cell             battery_2_smd                                         42.5147   -25.7570  180.0000  top
+SW1       TS-1088-AR02016        SW-SMD_L3.9-W3.0-P4.45                                51.8000   -26.8000    0.0000  top
+U1        CHT20MEMS              LGA-6_L3.0-W3.0-P1.00-BR                              55.1000   -48.0000  180.0000  top
+U2        STM32C051F8P6          TSSOP-20_4.4x6.5mm_P0.65mm                            65.4762   -36.8600    0.0000  top
+U3        SPA06-003              LGA-8_L2.5-W2.0-P0.65_SPA06-003                       51.3425   -48.0550  180.0000  top
+U4        CN3163                 ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP                    38.4386   -33.4550   90.0000  top
+U5        TPS63900               WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm_ThermalVias    38.4328   -39.7500    0.0000  top
+U6        SX1262IMLTRT           QFN-24_L4.0-W4.0-P0.50-BL-EP2.6                       68.4583   -46.3600   90.0000  top
+Y1        X322532MMB4SI          CRYSTAL-SMD_4P-L3.2-W2.5-BL                           76.9262   -45.2600  -90.0000  top
+## End
