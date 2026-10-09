@@ -2731,7 +2731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 73.66 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +2889,7 @@
 				)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100p C0G"
 			(at 172.72 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47nH VHF100505HQ47NJT"
 			(at 167.64 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3594,7 +3594,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a1d0702-1a5c-4086-bcfd-91743f2ac3fb")
 		(property "Reference" "C17"
 			(at 147.32 20.3199 0)
@@ -3607,8 +3606,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 147.32 22.8599 0)
+		(property "Value" "100p C0G"
+			(at 145.796 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3689,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 62.23 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +3995,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d5ebc4a-75e4-4052-affd-1ac7f63e5d11")
 		(property "Reference" "C16"
 			(at 160.02 20.3199 0)
@@ -4009,8 +4007,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
-			(at 160.02 22.8599 0)
+		(property "Value" "47nF C0G"
+			(at 156.21 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4020,7 +4018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 157.1752 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4173,7 +4171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 64.77 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +4489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 45.72 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 76.2 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
