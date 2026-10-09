@@ -1552,7 +1552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "CL10A226MQ8NRNC 22uF"
 			(at 105.41 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2108,7 +2108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "CL10A106KP8NNNC 10uF"
 			(at 43.18 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)

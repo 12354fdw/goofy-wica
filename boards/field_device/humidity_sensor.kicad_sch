@@ -1270,7 +1270,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "0603WAF3300T5E 330R"
 			(at 26.67 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1280,7 +1280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.67 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -1553,7 +1553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "CL10A106KP8NNNC 10uF"
 			(at 25.4 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)

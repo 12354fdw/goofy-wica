@@ -2731,7 +2731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "CL05B104KO5NNNC 100nF"
 			(at 73.66 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +2889,7 @@
 				)
 			)
 		)
-		(property "Value" "100p C0G"
+		(property "Value" "0402CG101J500NT 100pF"
 			(at 172.72 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47nH VHF100505HQ47NJT"
+		(property "Value" "47nH"
 			(at 167.64 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,7 +3536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 166.37 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3606,8 +3606,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p C0G"
-			(at 145.796 26.924 0)
+		(property "Value" "0402CG101J500NT 100pF"
+			(at 145.034 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3688,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "CL10A106KP8NNNC 10uF"
 			(at 62.23 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47nF C0G"
+		(property "Value" "47nF"
 			(at 156.21 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4171,7 +4171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "CL10A106KP8NNNC 10uF"
 			(at 64.77 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "CL10A106KP8NNNC 10uF"
 			(at 45.72 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "CL05B104KO5NNNC 100nF"
 			(at 76.2 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -865,7 +865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "CL05B104KO5NNNC 100nF"
 			(at 124.46 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1127,7 +1127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "CL05B104KO5NNNC 100nF"
 			(at 142.24 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
